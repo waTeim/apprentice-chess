@@ -1,0 +1,14 @@
+*.swp
+*.swo
+.npmrc
+node_modules
+dist
+npm-debug.log
+nohup.out
+output
+*~
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?

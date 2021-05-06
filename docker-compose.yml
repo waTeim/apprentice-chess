@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  chess:
+    build:
+      context: .
+    image: apprentice-chess-app
+    ports:
+      - 64100:64100
+    environment:
+      MONGO_HOST: mongodb
+networks:
+  default:
+    external:
+      name: apprentice-chess
